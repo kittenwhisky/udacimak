@@ -1,0 +1,19 @@
+<h3>{{{title}}}</h3>
+
+{{#if summary}}
+  <h3>Task</h3>
+  {{{summary}}}
+{{/if}}
+
+{{#if keyTakeaways}}
+  {{#if keyTakeaways.length}}
+    <h3>Key Takeaways</h3>
+    <ul>
+      {{#each keyTakeaways}}
+        <li>{{{this}}}</li>
+      {{/each}}
+    </ul>
+  {{/if}}
+{{/if}}
+
+{{{video}}}

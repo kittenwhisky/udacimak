@@ -1,0 +1,18 @@
+<!-- video tag with src = downloaded_youtube_vid.mp4
+replaced by
+embedded youtube video src= https:/youtube.com/embed/videoId
+ -->
+
+{{#with video}}
+<!-- explanation of {{#with var}} in handlebars
+https://tutorialzine.com/2015/01/learn-handlebars-in-10-minutes
+section "Context" -->
+<iframe width="770"
+    height="433"
+    src="{{src}}"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+    <p>Your browser does not support iframes.</p>
+</iframe>
+{{/with}}

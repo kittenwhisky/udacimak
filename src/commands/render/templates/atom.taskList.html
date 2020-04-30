@@ -1,0 +1,35 @@
+<div>
+  <div>
+    {{#if description}}
+    <h4>Task Description:</h4>
+    {{{description}}}
+    {{/if}}
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      {{#each tasks}}
+      <div>
+        <input type="checkbox" id="{{this.id}}">
+        <label for="{{this.id}}">{{{this.task}}}</label>
+      </div>
+      {{/each}}
+    </fieldset>
+  </form>
+
+  {{#if hasFeedback}}
+  <div>
+    <h4>Task Feedback:</h4>
+    {{#if video}}
+    {{{video}}}
+    {{/if}}
+
+
+    {{#if positiveFeedback}}
+    {{{positiveFeedback}}}
+    {{/if}}
+  </div>
+  {{/if}}
+</div>
