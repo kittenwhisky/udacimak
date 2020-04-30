@@ -1,7 +1,7 @@
 {
   "name": "udacimak",
-  "version": "1.6.2",
-  "description": "Udacity Nanodegree/course downloader and renderer",
+  "version": "1.6.2beta",
+  "description": "no vid download - Udacity Nanodegree/course downloader and renderer",
   "main": "index.js",
   "scripts": {
     "coverage": "jest --coverage src",
@@ -33,7 +33,7 @@
     "udacity download content",
     "udacity content downloader"
   ],
-  "author": "udacimak <udacimak@tutanota.com>",
+  "author": "kittenwhisky (credits to udacimak)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/udacimak/udacimak/issues"
