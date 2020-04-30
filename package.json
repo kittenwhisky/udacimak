@@ -1,6 +1,7 @@
 {
   "name": "udacimak",
   "version": "1.6.2beta",
+  "type": "module",
   "description": "no vid download - Udacity Nanodegree/course downloader and renderer",
   "main": "index.js",
   "scripts": {
